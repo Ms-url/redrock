@@ -102,12 +102,13 @@ public class Monstar_1 {
                 System.out.println("      *************");break;
             case 4:
                 System.out.println("      *****");
-                System.out.println("    * *****");
-                System.out.println("     *  *");
-                System.out.println("      * * *  *");
-                System.out.println("        *  *");
+                System.out.println("      *****");
                 System.out.println("        *");
+                System.out.println("      * * *  *");
+                System.out.println("     *  *  *");
+                System.out.println("    *   *");
                 System.out.println("       * *");
+                System.out.println("       *  *");
                 System.out.println("      *   *");break;
 
         }
