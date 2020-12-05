@@ -38,6 +38,8 @@ public class Fragment_1 extends Fragment {
         recyclerView.setLayoutManager(layoutManager);
         recyclerView.setAdapter(dataAdapter);
 
+        list.clear();
+
         list.add(new Data("text1",R.drawable.ic_launcher_foreground));
         list.add(new Data("text2",R.drawable.ic_launcher_background));
         list.add(new Data("text3",R.drawable.ic_launcher_foreground));

@@ -68,6 +68,7 @@ public class MainActivity extends AppCompatActivity {
         fragmentList.add(new Fragment_2());
         fragmentList.add(new Fragment_3());
 
+
         viewPager.setAdapter(new ViewPagerAdapter(getSupportFragmentManager(),
                 ViewPagerAdapter.BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT)) ;
         //将tablayout与viewpager联动
