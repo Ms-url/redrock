@@ -1,4 +1,4 @@
-package com.example.text;
+package com.example.app;
 
 import android.os.Bundle;
 
