@@ -37,17 +37,17 @@ public class Fragment_1 extends Fragment {
         RecyclerView.LayoutManager layoutManager =new LinearLayoutManager(getActivity());
         recyclerView.setLayoutManager(layoutManager);
         recyclerView.setAdapter(dataAdapter);
-
-        list.add(new Data("text1",R.drawable.ic_launcher_foreground));
-        list.add(new Data("text2",R.drawable.ic_launcher_background));
-        list.add(new Data("text3",R.drawable.ic_launcher_foreground));
-        list.add(new Data("text4",R.drawable.ic_launcher_background));
-        list.add(new Data("text5",R.drawable.ic_launcher_foreground));
-        list.add(new Data("text6",R.drawable.ic_launcher_background));
-        list.add(new Data("text7",R.drawable.ic_launcher_foreground));
-        list.add(new Data("text8",R.drawable.ic_launcher_background));
-        list.add(new Data("text9",R.drawable.ic_launcher_foreground));
-        list.add(new Data("text10",R.drawable.ic_launcher_background));
+list.clear();
+        list.add(new Data("text1",R.drawable.sport1));
+        list.add(new Data("text2",R.drawable.sport2));
+        list.add(new Data("text3",R.drawable.sport3));
+        list.add(new Data("text4",R.drawable.sport4));
+        list.add(new Data("text5",R.drawable.sport5));
+        list.add(new Data("text6",R.drawable.sport6));
+        list.add(new Data("text7",R.drawable.sport7));
+        list.add(new Data("text8",R.drawable.zombie));
+        list.add(new Data("text9",R.drawable.fee));
+        list.add(new Data("text10",R.drawable.shanghao));
         list.add(new Data("text11",R.drawable.ic_launcher_foreground));
         list.add(new Data("text12",R.drawable.ic_launcher_background));
         list.add(new Data("text13",R.drawable.ic_launcher_foreground));
@@ -55,7 +55,6 @@ public class Fragment_1 extends Fragment {
         list.add(new Data("text15",R.drawable.ic_launcher_foreground));
         list.add(new Data("text16",R.drawable.ic_launcher_background));
         list.add(new Data("text17",R.drawable.ic_launcher_foreground));
-
 
         return view;
     }
